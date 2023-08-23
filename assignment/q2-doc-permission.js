@@ -95,5 +95,5 @@ class Document extends Permission{
 
 //const d = new Document(Permission.RolesConst.EDITOR, Permission.OperationsConst.UPDATE, "Hello content")
 // const d = new Document(Permission.RolesConst.READER, Permission.OperationsConst.UPDATE, "Hello content")
-const d = new Document(Permission.RolesConst.OWNER, Permission.OperationsConst.DELETE, "Hello content")
+//const d = new Document(Permission.RolesConst.OWNER, Permission.OperationsConst.DELETE, "Hello content")
 d.process();
